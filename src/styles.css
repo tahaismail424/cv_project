@@ -1,0 +1,110 @@
+@font-face {
+    font-family: veryBoldNanumGothic;
+    src: url(./assets/NanumGothic-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: boldNanumGothic;
+    src: url(./assets/NanumGothic-Bold.ttf);
+}
+
+@font-face {
+    font-family: normalNanumGothic;
+    src: url(./assets/NanumGothic-Regular.ttf);
+}
+
+h1 {
+    font-family: veryBoldNanunGothic, sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: veryBoldNanunGothic, sans-serif;
+    border-color: #33bbab;
+    border-top-width: 3px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 3px;
+    border-style: solid;
+    padding: 5px;
+
+
+}
+
+h3 {
+    font-family: boldNanunGothic, sans-serif;
+
+}
+
+h4 {
+    font-family: normalNanumGothic, sans-serif;
+}
+
+#cv-container {
+    display: flex;
+    flex-flow: column wrap;
+    height: 800px;
+
+
+}
+
+#info-box {
+    flex-grow: 1;
+    margin: 20px;
+    
+
+}
+
+#education-box {
+    flex-grow: 1;
+    margin: 20px;
+  
+
+}
+
+#distinctions-box {
+    flex-grow: 1;
+    margin: 20px;
+
+  
+}
+
+#skills-box {
+    flex-grow: 1;
+    margin: 20px;
+
+}
+
+#experience-box {
+
+    flex-grow: 2;
+    margin: 20px;
+ 
+}
+
+.save {
+    font-family: normalNanunGothic, sans-serif;
+
+}
+
+.edit {
+
+    font-family: normalNanumGothic;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+label {
+    font-family: normalNanumGothic;
+
+}
+
+input {
+
+    font-family: normalNanumGothic;
+    border-radius: 5px;
+    margin: 10px;
+}
+
